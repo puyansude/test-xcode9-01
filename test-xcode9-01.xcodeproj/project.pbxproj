@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B53C35401EFADB94009D7619 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5D053631EE6032F0031C80F /* test-xcode9-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-xcode9-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D053661EE6032F0031C80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D053681EE6032F0031C80F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		B5D0535A1EE6032F0031C80F = {
 			isa = PBXGroup;
 			children = (
+				B53C35401EFADB94009D7619 /* README.md */,
 				B5D053651EE6032F0031C80F /* test-xcode9-01 */,
 				B5D053641EE6032F0031C80F /* Products */,
 			);
@@ -310,6 +312,7 @@
 				B5D053771EE6032F0031C80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
