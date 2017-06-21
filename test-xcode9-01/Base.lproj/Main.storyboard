@@ -45,13 +45,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theBoss" translatesAutoresizingMaskIntoConstraints="NO" id="ENk-Ft-05O">
+                                <rect key="frame" x="110" y="269" width="154" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.59215542525654075" blue="0.97453705359147424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QUs-oj-PjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="804" y="123.68815592203899"/>
+            <point key="canvasLocation" x="796" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="theBoss" width="256" height="256"/>
+    </resources>
 </document>
