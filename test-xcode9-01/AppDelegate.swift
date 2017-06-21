@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 let _PI = 3.141592
 struct MesGloblales {
     static let yo = "yo"
