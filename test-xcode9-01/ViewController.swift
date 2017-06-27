@@ -73,6 +73,8 @@ class ViewController: UIViewController {
             print (i, terminator: ", ")
         }
         
+        NSLog("x = %@", "yo");
+        
         let i = arc4random_uniform(10)
         
         if i == 0 {
@@ -105,6 +107,15 @@ class ViewController: UIViewController {
         let unDécodeur = JSONDecoder()
         let personne = try!unDécodeur.decode(KeKun.self, from: json.data(using: .utf8)!)
         print(personne)
+        
+        // Animer un carré
+        let carré = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        carré.backgroundColor = UIColor.red
+        view.addSubview(carré)
+        UIView.animate(withDuration: 3) {
+            carré.frame = carré.frame.offsetBy(dx: 200, dy: 0)
+        }
+        
         print("fin viewDidLoad")
     } // viewDidLoad
     
@@ -118,6 +129,13 @@ class ViewController: UIViewController {
             } // for
         } // if let
     } // testerJson
+    
+    func nulle() {
+        
+        // Démo 1
+        
+        
+    }
     
 } // ViewController
 
